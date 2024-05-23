@@ -1,5 +1,5 @@
 /* GET homepage */
-const index = (reg, res) => {
+const index = (req, res) => {
     res.render('index', {title: "travlr Getawayss"});
 };
 
